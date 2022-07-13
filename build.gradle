@@ -130,7 +130,7 @@ publishing {
 dependencies {
     yamlRestTestRuntimeOnly "org.apache.logging.log4j:log4j-core:${versions.log4j}"
     testImplementation "org.hamcrest:hamcrest:${versions.hamcrest}"
-    testImplementation 'org.json:json:20211205'
+    testImplementation 'org.json:json:202.1.15'
     implementation "org.apache.commons:commons-lang3:3.12.0"
     implementation "org.locationtech.spatial4j:spatial4j:${versions.spatial4j}"
     implementation "org.locationtech.jts:jts-core:${versions.jts}"
